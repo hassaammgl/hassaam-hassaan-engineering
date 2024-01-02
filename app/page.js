@@ -1,10 +1,11 @@
-import styles from './page.module.css'
-
+import style from "@/styles/main.module.scss";
+import Main from "@/components/client/Home";
+import Header from "@/components/Header";
 export default function Home() {
   return (
-    <main className={styles.main}>
-      context.shadowOffsetX=x;
-      
-    </main>
-  )
+    <>
+      <Header />
+      <Main />
+    </>
+  );
 }
