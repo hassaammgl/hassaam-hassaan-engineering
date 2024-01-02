@@ -1,0 +1,33 @@
+$color1: #FB8122;
+$color2: #1D2228;
+$color3: #E1E2E2;
+
+@mixin flexer($dir: row, $justify: center, $items: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $items;
+  flex-direction: $dir;
+}
+
+@mixin hw($width: 100%, $height: fit-content) {
+  height: $height;
+  width: $width;
+}
+
+// @mixin linkHover() {
+//   cursor: pointer;
+//   position: relative;
+//   &::before {
+//     content: "";
+//     width: 0px;
+//     position: absolute;
+//     bottom: -5px;
+//     height: 1px;
+//     background-color: white;
+//   }
+
+//   &:hover::before {
+//     width: 100%;
+//     transition: 0.6s ease;
+//   }
+// }
