@@ -1,14 +1,44 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+import { FaAward } from "react-icons/fa";
 import company from "@/public/companylogo.png";
-import Image from 'next/image';
 import style from "@/styles/header.module.scss";
+import { LiaCertificateSolid } from "react-icons/lia";
+import { RiCustomerService2Line } from "react-icons/ri";
 
 const Header = () => {
   return (
     <div className={style.header}>
-        <Image src={company} />
+      <Image className={style.img} alt="" src={company} />
+      <div className={style.customer}>
+        <div className={style.icon}>
+        <RiCustomerService2Line className={style.headericon} />
+        </div>
+        <div className={style.content}>
+          <h2>24/7</h2>
+          <p>Customer Service</p>
+        </div>
+      </div>
+      <div className={style.customer}>
+      <div className={style.icon}>
+        <LiaCertificateSolid className={style.headericon} />
+        </div>
+        <div className={style.content}>
+          <h2>ISO 9001</h2>
+          <p>Certification Company</p>
+        </div>
+      </div>
+      <div className={style.customer}>
+      <div className={style.icon}>
+        <FaAward className={style.headericon} />
+        </div>
+        <div className={style.content}>
+          <h2>Qualified</h2>
+          <p>Expert Professional</p>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

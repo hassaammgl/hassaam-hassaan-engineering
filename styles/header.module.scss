@@ -1,5 +1,35 @@
 @import "./utils";
 
-.header{
-    background: black;
+.header {
+  padding: 1rem 6rem;
+  background: black;
+  @include flexer(center,space-around);
+
+  .img {
+    height: 10vh;
+    width: 11vw;
+  }
+
+  .customer{
+    color: $color3;
+    @include flexer(row);
+    gap: 1rem;
+
+    .icon{
+        height: 50px;
+        width:50px;
+        background: $bg;
+        border-radius: 100px;
+        @include flexer();
+    }
+
+    .headericon{
+        font-size: 2rem;
+        color: $color1;
+    }
+
+    .content{
+        @include flexer(column);
+    }
+  }
 }
