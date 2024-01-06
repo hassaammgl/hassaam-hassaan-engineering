@@ -17,8 +17,24 @@
     }
 
     .customer{
-      border: 2px solid red;
       @include flexer(row,space-evenly);
+      gap: 1rem;
+
+      .icon{
+        gap: 1rem;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $color1lg;
+        color: $color1;
+        border-radius: 50px;
+        width: 50px;
+
+        .headericon{
+          font-size: 1.8rem;
+        }
+      }
     }
   }
 }
