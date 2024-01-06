@@ -5,7 +5,8 @@ import company from "@/public/companylogo.png";
 import style from "@/styles/header.module.scss";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { RiCustomerService2Line } from "react-icons/ri";
-import {font} from "./fonts";
+import { font } from "./fonts";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -40,9 +41,12 @@ const Header = () => {
           </div>
         </div>
       </div>
-    <div className={style.links}>
-
-    </div>
+      {/* <div className={style.links}>
+        <Link href={"/"}>Home</Link>
+        <Link href={"/"}>Services</Link>
+        <Link href={"/"}>Portfolio</Link>
+        <Link href={"/"}>Contact Us</Link>
+      </div> */}
     </div>
   );
 };
