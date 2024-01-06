@@ -2,7 +2,7 @@
 
 .quotation {
   @include flexer(row, space-between);
-  width: 50%;
+  width: 60%;
   background-color: gray;
   height: fit-content;
   padding: 1rem;
@@ -14,24 +14,31 @@
 
     h2 {
       font-size: 2.5rem;
-      color: #fff;
+      color: $color3;
     }
   }
 
-  .right{
-    padding: 0 .5rem;
+  .right {
+    padding: 0 0.5rem;
     width: 50%;
     @include flexer(row, space-between);
     gap: 1rem;
 
-    .icon{
-        @include flexer();
-        gap: 1rem;
+    .icon {
+      @include flexer();
+      gap: 1rem;
 
-        .lright{
-            font-size: 2rem;
-            color: $color1;
+      .lright {
+        font-size: 2rem;
+        color: $color1;
+      }
+
+      .rright {
+        p {
+          color: $color3;
+          font-size: 1.4rem;
         }
+      }
     }
   }
 }
