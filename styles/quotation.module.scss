@@ -3,7 +3,7 @@
 .quotation {
   @include flexer(row, space-between);
   width: 50%;
-  background-color: red;
+  background-color: gray;
   height: fit-content;
   padding: 1rem;
   border-radius: 15px;
@@ -15,6 +15,23 @@
     h2 {
       font-size: 2.5rem;
       color: #fff;
+    }
+  }
+
+  .right{
+    padding: 0 .5rem;
+    width: 50%;
+    @include flexer(row, space-between);
+    gap: 1rem;
+
+    .icon{
+        @include flexer();
+        gap: 1rem;
+
+        .lright{
+            font-size: 2rem;
+            color: $color1;
+        }
     }
   }
 }

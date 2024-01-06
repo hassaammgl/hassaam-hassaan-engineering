@@ -8,7 +8,9 @@ const Quotation = () => {
   return (
     <div className={style.quotation}>
       <div className={`${style.left} ${font.ubuntu.className}`}>
-        <h2>Gets a Quotation For <br /> Your Work</h2>
+        <h2>
+          Gets a Quotation For <br /> Your Work
+        </h2>
       </div>
       <div className={style.right}>
         <div className={style.icon}>
