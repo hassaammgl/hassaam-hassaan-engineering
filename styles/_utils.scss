@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
 
-$bg: #fa6c0065;
 $color1: #FB8122;
 $color2: #1D2228;
 $color3: #E1E2E2;
-
-$font: 'Playfair Display', serif;
+$color4: #fff;
+$color1lg: #ffa763;
+$color2lg: #161a1e;
+$color3lg: #E1E2E2;
+$color1dk: #ffa763;
+$color2dk: #161a1e;
+$color3dk: #E1E2E2;
 
 @mixin flexer($dir: row, $justify: center, $items: center) {
   display: flex;

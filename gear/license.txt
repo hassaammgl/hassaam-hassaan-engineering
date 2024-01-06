@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cogweel | Gear
+* source:	https://sketchfab.com/3d-models/cogweel-gear-0d9eee5278884251a05c6f4b2c606bb7
+* author:	Adamante (https://sketchfab.com/Adamant6686)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cogweel | Gear" (https://sketchfab.com/3d-models/cogweel-gear-0d9eee5278884251a05c6f4b2c606bb7) by Adamante (https://sketchfab.com/Adamant6686) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
