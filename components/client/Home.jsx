@@ -4,6 +4,7 @@ import ServerHome from "../server/Home";
 import { PiPhoneCall } from "react-icons/pi";
 import style from "@/styles/home.module.scss";
 import Button from "../Button";
+import { font } from "../fonts";
 
 const Home = () => {
   return (
@@ -31,8 +32,8 @@ const Home = () => {
                 <PiPhoneCall className={style.headericon} />
               </div>
               <div className={style.content}>
-                <h2>Call Us Now</h2>
-                <p>+92 9876543210</p>
+                <h2 className={font.roboto.className}>Call Us Now</h2>
+                <p className={font.roboto.className}>+92 9876543210</p>
               </div>
             </div>
           </div>
