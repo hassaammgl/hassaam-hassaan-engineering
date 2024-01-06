@@ -3,7 +3,7 @@
 .home {
   background: $color2;
   @include flexer(center, center);
-  padding: 0rem 2rem;
+  padding: 0rem 3rem;
   height: 80vh;
 
   .left {
@@ -46,22 +46,24 @@
       }
     }
 
-    .customer {
-      @include flexer(row);
-      color: $color3;
+    .customer{
+      @include flexer();
       gap: 1rem;
 
-      .icon {
+      .icon{
+        gap: 1rem;
         height: 50px;
-        width: 50px;
-        background: $color2;
-        border-radius: 100px;
-        @include flexer();
-      }
-
-      .headericon {
-        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $color1lg;
         color: $color1;
+        border-radius: 50px;
+        width: 50px;
+
+        .headericon{
+          font-size: 1.8rem;
+        }
       }
     }
   }
