@@ -3,6 +3,7 @@ import React from "react";
 import ServerHome from "../server/Home";
 import { PiPhoneCall } from "react-icons/pi";
 import style from "@/styles/home.module.scss";
+import Button from "../Button";
 
 const Home = () => {
   return (
@@ -13,16 +14,18 @@ const Home = () => {
             Welcome You By <span>HHE</span>
           </h2>
           <h1>
-            We're Best <span>Providing</span> <br /> Mechanical Engineering Company
+            We're Best <span>Providing</span> <br /> Mechanical Engineering
+            Company
           </h1>
           <p className={style.companyp}>
-            Our company is ready to help you in making unique-looking <br /> and best
-            products.
+            Our company is ready to help you in making unique-looking <br /> and
+            best products.
           </p>
           <div className={style.buttoncontent}>
-            <div className={style.btn}>
-              <button>Book Now</button>
-            </div>
+            {/* <div className={style.btn}>
+              <button>Click Here</button>
+            </div> */}
+            <Button />
             <div className={style.customer}>
               <div className={style.icon}>
                 <PiPhoneCall className={style.headericon} />
@@ -34,9 +37,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className={style.right}>
-          gears
-        </div>
+        <div className={style.right}>gears</div>
       </div>
     </ServerHome>
   );
