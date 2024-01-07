@@ -7,6 +7,7 @@ import { LiaCertificateSolid } from "react-icons/lia";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { font } from "./fonts";
 import Link from "next/link";
+import Button from "./Button";
 
 const Header = () => {
   return (
@@ -41,12 +42,15 @@ const Header = () => {
           </div>
         </div>
       </div>
-      {/* <div className={style.links}>
+      <div className={style.links}>
         <Link href={"/"}>Home</Link>
         <Link href={"/"}>Services</Link>
         <Link href={"/"}>Portfolio</Link>
         <Link href={"/"}>Contact Us</Link>
-      </div> */}
+        <div className={style.button}>
+          <Button name={"Get a Quote"}/>
+        </div>
+      </div>
     </div>
   );
 };

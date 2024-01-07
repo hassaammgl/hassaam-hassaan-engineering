@@ -15,7 +15,7 @@ const Home = () => {
             Welcome You By <span>HHE</span>
           </h2>
           <h1>
-            We're Best <span>Providing</span> <br /> Mechanical Engineering
+            We&#39;re Best <span>Providing</span> <br /> Mechanical Engineering
             Company
           </h1>
           <p className={style.companyp}>
