@@ -34,7 +34,6 @@ const Home = () => {
 const Right = () => {
   return (
     <Canvas className={style.right}>
-      <OrbitControls />
       <ambientLight />
       <mesh>
         <boxGeometry attach="geometry"  />
