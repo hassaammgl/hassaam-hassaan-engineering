@@ -5,6 +5,8 @@ import { PiPhoneCall } from "react-icons/pi";
 import style from "@/styles/home.module.scss";
 import Button from "../Button";
 import { font } from "../fonts";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 
 const Home = () => {
   return (
@@ -23,9 +25,22 @@ const Home = () => {
             best products.
           </p>
         </div>
-        <div className={style.right}>gears</div>
+        <Right />
       </div>
     </ServerHome>
+  );
+};
+
+const Right = () => {
+  return (
+    <Canvas className={style.right}>
+      <OrbitControls />
+      <ambientLight />
+      <mesh>
+        <boxGeometry attach="geometry"  />
+        <meshStandardMaterial attach="material" color="red" />
+      </mesh>
+    </Canvas>
   );
 };
 
