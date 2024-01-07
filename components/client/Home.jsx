@@ -1,11 +1,11 @@
 "use client";
-import React from "react";
+import React, { useRef, Suspense } from "react";
 import ServerHome from "../server/Home";
 import { PiPhoneCall } from "react-icons/pi";
 import style from "@/styles/home.module.scss";
 import Button from "../Button";
 import { font } from "../fonts";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 
 const Home = () => {
@@ -34,12 +34,44 @@ const Home = () => {
 const Right = () => {
   return (
     <Canvas className={style.right}>
+      <OrbitControls />
       <ambientLight />
-      <mesh>
-        <boxGeometry attach="geometry"  />
-        <meshStandardMaterial attach="material" color="red" />
-      </mesh>
+      <Scene />
     </Canvas>
+  );
+};
+
+// useFrame(() => {
+//   if (mesh.current) {
+//     mesh.current.rotation.x += 0.01;
+//     mesh.current.rotation.y += 0.01;
+//   }
+// });
+
+const Modal = () => {
+  return (
+    <group>
+      <mesh>
+        <sphereGeometry />
+        <meshStandardMaterial attach="material" wireframe color="red" />
+      </mesh>
+      <mesh>
+        <boxGeometry />
+        <meshStandardMaterial attach="material" wireframe color="green" />
+      </mesh>
+      <mesh>
+        <torusGeometry />
+        <meshStandardMaterial attach="material" wireframe color="gray" />
+      </mesh>
+    </group>
+  );
+};
+
+const Scene = () => {
+  return (
+    <Suspense fallback={null}>
+      <Modal />
+    </Suspense>
   );
 };
 

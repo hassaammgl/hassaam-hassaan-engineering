@@ -44,9 +44,9 @@ const Header = () => {
       </div>
       <div className={style.links}>
         <Link href={"/"}>Home</Link>
-        <Link href={"/"}>Services</Link>
-        <Link href={"/"}>Portfolio</Link>
-        <Link href={"/"}>Contact Us</Link>
+        <Link href={"/Services"}>Services</Link>
+        <Link href={"/Portfolio"}>Portfolio</Link>
+        <Link href={"/Contact"}>Contact Us</Link>
         <div className={style.button}>
           <Button name={"Get a Quote"} />
         </div>
