@@ -48,7 +48,7 @@ const Header = () => {
         <Link href={"/"}>Portfolio</Link>
         <Link href={"/"}>Contact Us</Link>
         <div className={style.button}>
-          <Button name={"Get a Quote"}/>
+          <Button name={"Get a Quote"} />
         </div>
       </div>
     </div>
