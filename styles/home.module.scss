@@ -4,7 +4,7 @@
   background: $color2;
   @include flexer(center, center);
   padding: 0rem 3rem;
-  height: 50vh;
+  height: 90vh;
 
   .left {
     width: 70vw;
@@ -32,19 +32,6 @@
       font-size: 1.2rem;
     }
 
-    .buttoncontent {
-      justify-content: start;
-      @include flexer(row);
-      gap: 1rem;
-
-      .btn{
-        button{
-          border: none;
-          outline: none;
-          background-color: $color1;
-        }
-      }
-    }
 
     .customer{
       @include flexer();

@@ -22,21 +22,6 @@ const Home = () => {
             Our company is ready to help you in making unique-looking <br /> and
             best products.
           </p>
-          <div className={style.buttoncontent}>
-            {/* <div className={style.btn}>
-              <button>Click Here</button>
-            </div> */}
-            <Button />
-            <div className={style.customer}>
-              <div className={style.icon}>
-                <PiPhoneCall className={style.headericon} />
-              </div>
-              <div className={style.content}>
-                <h2 className={font.roboto.className}>Call Us Now</h2>
-                <p className={font.roboto.className}>+92 9876543210</p>
-              </div>
-            </div>
-          </div>
         </div>
         <div className={style.right}>gears</div>
       </div>
