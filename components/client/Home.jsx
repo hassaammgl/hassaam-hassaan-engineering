@@ -5,14 +5,11 @@ import ServerHome from "../server/Home";
 import style from "@/styles/home.module.scss";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import Image from "next/image";
-import Bg from "@/Images/welderbg.jpg";
 
 const Home = () => {
   return (
     <ServerHome>
       <div className={style.home}>
-        <Bgimage />
         <div className={style.left}>
           <h2 className={style.lefth2}>
             Welcome You By <span>HHE</span>
@@ -136,10 +133,6 @@ const Scene = () => {
       <Modals />
     </Suspense>
   );
-};
-
-const Bgimage = () => {
-  return <Image className={style.bgimg} src={Bg} alt="" />;
 };
 
 export default Home;
