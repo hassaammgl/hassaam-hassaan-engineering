@@ -9,7 +9,7 @@
   .left {
     width: 50%;
     height: 70vh;
-    @include flexer();
+    @include flexer(column,center,flex-start);
   }
   .right {
     width: 45%;
