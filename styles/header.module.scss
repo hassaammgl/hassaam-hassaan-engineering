@@ -40,7 +40,7 @@
   .links {
     height: 75px;
     width: 75vw;
-    margin: 0 auto;
+    margin: 1rem auto;
     position: relative;
     border-radius: 10px;
     @include flexer(row,space-between);
@@ -50,7 +50,7 @@
     .link a{
       text-decoration: none;
       color: $color2;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       margin: 0 1.2rem;
       font-weight: bolder;
     }
