@@ -3,7 +3,7 @@ import style from "@/styles/services.module.scss";
 
 const Services = () => {
   return (
-    <div>
+    <div className={style.services}>
         <div>
             SERVICES
         </div>
