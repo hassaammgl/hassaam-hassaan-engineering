@@ -5,16 +5,16 @@ import company from "@/public/companylogo.png";
 import style from "@/styles/header.module.scss";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { RiCustomerService2Line } from "react-icons/ri";
-import { font } from "./fonts";
+import { ubuntu, roboto } from "@/components/fonts";
 import Link from "next/link";
 import Button from "./Button";
 
 const Header = () => {
   return (
-    <div className={`${style.header} ${font.ubuntu.className}`}>
-      <div className={`${style.upperheader} ${font.roboto.className}`}>
+    <div className={`${style.header} ${ubuntu.className}`}>
+      <div className={style.upperheader}>
         <Image className={style.img} alt="" src={company} />
-        <div className={style.customer}>
+        <div className={`${style.customer} ${roboto.className}`}>
           <div className={style.icon}>
             <RiCustomerService2Line className={style.headericon} />
           </div>
@@ -43,7 +43,7 @@ const Header = () => {
         </div>
       </div>
       <div className={style.links}>
-        <div className={style.link}>
+        <div className={`${style.link} ${roboto.className}`}>
           <Link href={"/"}>Home</Link>
           <Link href={"/Services"}>Services</Link>
           <Link href={"/Portfolio"}>Portfolio</Link>

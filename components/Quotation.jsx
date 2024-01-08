@@ -2,12 +2,17 @@ import React from "react";
 import { FaCirclePlay } from "react-icons/fa6";
 import style from "@/styles/quotation.module.scss";
 import Button from "./Button";
-import { font } from "./fonts";
+import { Ubuntu } from "next/font/google";
+
+const ubuntu = Ubuntu({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
 
 const Quotation = () => {
   return (
     <div className={style.quotation}>
-      <div className={`${style.left} ${font.ubuntu.className}`}>
+      <div className={`${style.left} ${ubuntu.className}`}>
         <h2>
           Gets a Quotation For <br /> Your Work
         </h2>
