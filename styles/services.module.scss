@@ -9,12 +9,14 @@
     .left{
         width: 50%;
         height: 70vh;
+        @include flexer();
+
+        
     }
     .right{
         width: 50%;
         height: 70vh;
         background-image: url("../Images/servimg.jpg");
-        
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -24,6 +26,14 @@
             width: 100%;
             height: 100%;
             background: #ea5a1c74;
+            @include flexer();
+
+            .clientimg{
+                height: 15vh;
+                border-radius: 100px;
+                width: 8vw;
+                object-fit: cover;
+            }
         }
     }
 }
