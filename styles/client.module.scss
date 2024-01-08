@@ -11,7 +11,13 @@
     height: 70vh;
     @include flexer(column,center,flex-start);
     padding-left: 1.5rem;
+
+    .call{
+      @include flexer();
+      margin: 1.5rem;
+    }
   }
+
   .right {
     width: 45%;
     height: 60vh;

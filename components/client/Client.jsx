@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import client from "@/Images/girl.jpg";
+import { MdAddIcCall } from "react-icons/md";
 import style from "@/styles/client.module.scss";
 
 const Services = () => {
@@ -8,11 +9,22 @@ const Services = () => {
     <div className={style.services}>
       <div className={style.left}>
         <h3>WHAT OUR CLIENT SAY</h3>
-        <h2>Happy With <br /> Customers & Clients</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam distinctio omnis iusto ea ex qui ipsum delectus officia laborum ut molestiae commodi soluta laboriosam, explicabo iste? Aspernatur.</p>
+        <h2>
+          Happy With <br /> Customers & Clients
+        </h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+          aliquam distinctio omnis iusto ea ex qui ipsum delectus officia
+          laborum ut molestiae commodi soluta laboriosam, explicabo iste?
+          Aspernatur.
+        </p>
         <div className={style.call}>
           <div className={style.icon}>
-            
+            <MdAddIcCall />
+          </div>
+          <div className={style.callcontent}>
+            <p>Have any Questions? Give us a call</p>
+            <h2>+92 1234567890</h2>
           </div>
         </div>
       </div>
