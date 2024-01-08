@@ -23,8 +23,8 @@ const Services = () => {
             <MdAddIcCall />
           </div>
           <div className={style.callcontent}>
-            <p>Have any Questions? Give us a call</p>
-            <h2>+92 1234567890</h2>
+            <p className={style.callp}>Have any Questions? Give us a call</p>
+            <h2 className={style.callh2}>+92 1234567890</h2>
           </div>
         </div>
       </div>
