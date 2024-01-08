@@ -10,6 +10,7 @@
     width: 50%;
     height: 70vh;
     @include flexer(column,center,flex-start);
+    padding-left: 1.5rem;
   }
   .right {
     width: 45%;

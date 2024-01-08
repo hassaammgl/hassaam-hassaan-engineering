@@ -10,6 +10,11 @@ const Services = () => {
         <h3>WHAT OUR CLIENT SAY</h3>
         <h2>Happy With <br /> Customers & Clients</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquam distinctio omnis iusto ea ex qui ipsum delectus officia laborum ut molestiae commodi soluta laboriosam, explicabo iste? Aspernatur.</p>
+        <div className={style.call}>
+          <div className={style.icon}>
+            
+          </div>
+        </div>
       </div>
       <div className={style.right}>
         <div className={style.rightcontent}>
