@@ -2,10 +2,7 @@
 import { useBox, useSphere, Physics, usePlane } from "@react-three/cannon";
 import React, { useRef, Suspense } from "react";
 import ServerHome from "../server/Home";
-import { PiPhoneCall } from "react-icons/pi";
 import style from "@/styles/home.module.scss";
-import Button from "../Button";
-import { font } from "../fonts";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 
