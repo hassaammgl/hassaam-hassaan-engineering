@@ -1,58 +1,56 @@
 @import "./utils";
 
-.services{
-    height: fit-content;
-    width: 100vw;
+.services {
+  height: fit-content;
+  width: 100vw;
+  @include flexer();
+  padding: 2rem;
+
+  .left {
+    width: 50%;
+    height: 70vh;
     @include flexer();
-    padding: 2rem;
+  }
+  .right {
+    width: 45%;
+    height: 60vh;
+    background-image: url("../Images/servimg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    .left{
-        width: 50%;
-        height: 70vh;
-        @include flexer();
-        
+    .rightcontent {
+      color: white;
+      width: 100%;
+      padding: 2rem;
+      height: 100%;
+      background: #ea5a1c74;
+      @include flexer(column);
+
+      .clientimg {
+        height: 15vh;
+        border-radius: 100px;
+        width: 8vw;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        color: $color1;
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
     }
-    .right{
-        width: 45%;
-        height: 60vh;
-        background-image: url("../Images/servimg.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-        .rightcontent{
-            color: white;
-            width: 100%;
-            padding: 2rem;
-            height: 100%;
-            background: #ea5a1c74;
-            @include flexer(column);
-
-            .clientimg{
-                height: 15vh;
-                border-radius: 100px;
-                width: 8vw;
-                object-fit: cover;
-                margin-bottom: 1rem;
-            }
-
-            h3{
-                font-size: 1.3rem;
-                font-weight: bold;
-                margin-bottom: .5rem;
-            }
-            
-            h2{
-                font-weight: bold;
-                margin-bottom: .5rem;
-                color: $color1;
-                font-size: 1.8rem;
-            }
-
-            p{
-                font-size: 1.3rem;
-
-            }
-        }
-    }
+  }
 }
