@@ -39,25 +39,15 @@
   }
   .links {
     height: 75px;
-    width: 75%;
+    width: 75vw;
     margin: 0 auto;
     position: relative;
-    @include flexer(row,flex-start);
     border-radius: 10px;
-    background: white;
-    padding-left: 2rem;
-    a {
-      font-size: 1.2rem;
-      margin: 1rem;
-      font-weight: bolder;
-      text-decoration: none;
-      color: black;
-    }
+    @include flexer(row,space-between);
+    padding: 0 3rem;
+    background-color: $color3;
 
-    .button{
-      width: 60%;
-      @include flexer(row,flex-end);
-      margin-right: 2rem;
-    }
+    // .button{
+    // }
   }
 }
