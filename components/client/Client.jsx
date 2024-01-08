@@ -34,10 +34,9 @@ const Services = () => {
           <h3>BUYER</h3>
           <h2>JONI HENA</h2>
           <p>
-            {" "}
             I feel very happy and proud to connect with this company. I prefer
             to anyone they done their work from this platform. I wish very good
-            luck & success for this Company.{" "}
+            luck & success for this Company.
           </p>
         </div>
       </div>
