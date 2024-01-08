@@ -12,7 +12,7 @@ import Button from "./Button";
 const Header = () => {
   return (
     <div className={`${style.header} ${font.ubuntu.className}`}>
-      <div className={style.upperheader}>
+      <div className={`${style.upperheader} ${font.roboto.className}`}>
         <Image className={style.img} alt="" src={company} />
         <div className={style.customer}>
           <div className={style.icon}>
