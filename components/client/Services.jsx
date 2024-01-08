@@ -12,6 +12,9 @@ const Services = () => {
         <div className={style.right}>
           <div className={style.rightcontent}>
           <Image className={style.clientimg} src={client} alt='client' />
+          <h3>BUYER</h3>
+          <h2>JONI HENA</h2>
+          <p>I feel very happy and proud to connect with this company. I prefer to anyone they done their work from this platform. I wish very good luck & success for this Company.</p>
           </div>
         </div>
     </div>
