@@ -8,11 +8,11 @@ const Services = () => {
   return (
     <div className={style.services}>
       <div className={style.left}>
-        <h3>WHAT OUR CLIENT SAY</h3>
-        <h2>
+        <h3 className={style.clientsay}>WHAT OUR CLIENT SAY</h3>
+        <h2 className={style.h2}>
           Happy With <br /> Customers & Clients
         </h2>
-        <p>
+        <p className={style.p}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
           aliquam distinctio omnis iusto ea ex qui ipsum delectus officia
           laborum ut molestiae commodi soluta laboriosam, explicabo iste?

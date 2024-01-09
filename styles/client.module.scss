@@ -12,21 +12,22 @@
     @include flexer(column,center,flex-start);
     padding-right: 2rem;
 
-    h3{
+    .clientsay{
       border-bottom: 3px solid $color1;
       margin-bottom: 1.2rem;
     }
 
-    h2{
+    .h2{
       color: $color2;
       margin-bottom: 1rem;
     }
     
-    p{
+    .p{
       color: $color2;
       text-align: justify;
       margin: 2rem 0;
     }
+
 
     .call{
       @include flexer();
