@@ -3,6 +3,7 @@ import Image from "next/image";
 import client from "@/Images/girl.jpg";
 import { MdAddIcCall } from "react-icons/md";
 import style from "@/styles/client.module.scss";
+import Button from "../Button";
 
 const Services = () => {
   return (
@@ -23,9 +24,12 @@ const Services = () => {
             <MdAddIcCall />
           </div>
           <div className={style.callcontent}>
-            <p className={style.callp}>Have any Questions? Give us a call</p>
+            <p className={style.callp}>Have any Questions? Give us a call.</p>
             <h2 className={style.callh2}>+92 1234567890</h2>
           </div>
+        </div>
+        <div className={style.btn}>
+        <Button name={"OUR SERVICES"} />
         </div>
       </div>
       <div className={style.right}>

@@ -1,0 +1,53 @@
+@import "./utils";
+
+.achievement {
+  height: fit-content;
+  padding: 2rem;
+  background: #000;
+  color: white;
+  @include flexer(column);
+
+  .box {
+    width: 100%;
+    @include flexer();
+    margin-top: 2rem;
+    .container {
+      height: 12rem;
+      margin: 2rem;
+      padding: 0;
+      @include flexer(row);
+      background: $color3;
+      width: 25%;
+
+      .icon {
+        width: 40%;
+        background: $color1;
+        color: $color3;
+        position: relative;
+        height: 100%;
+        @include flexer();
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 250px;
+        font-size: 2rem;
+      }
+
+      .content {
+        width: 60%;
+        padding: .5rem;
+        
+        h2{
+            font-size: 2rem;
+            color: black;
+            font-weight: bold;
+            margin-bottom: .5rem;
+        }
+        
+        p{
+            color: $color2;
+            font-size: 1.8rem;
+
+        }
+      }
+    }
+  }
+}
