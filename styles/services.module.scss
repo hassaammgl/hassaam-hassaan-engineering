@@ -3,7 +3,6 @@
 .service {
   height: fit-content;
   width: 100vw;
-  // @include flexer(row);
   background-image: url("../Images/welderbg.jpg");
   background-size: cover;
   background-position: center;
@@ -12,7 +11,8 @@
   text-align: center;
 
   h1 {
-    padding: 1rem;
+    padding: 2rem .8rem;
+    background: #ea5a1c74;
   }
 
   .servicecontent {
