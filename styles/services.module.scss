@@ -3,7 +3,7 @@
 .service {
   height: fit-content;
   width: 100vw;
-  @include flexer();
+  // @include flexer(row);
   background-image: url("../Images/welderbg.jpg");
   background-size: cover;
   background-position: center;
@@ -11,28 +11,30 @@
   color: white;
   text-align: center;
 
+  h1 {
+    padding: 1rem;
+  }
+
   .servicecontent {
+    @include flexer(row);
+    gap: 2rem;
     padding: 3rem;
     width: 100vw;
     background: #ea5a1c74;
 
-    h1 {
-      margin: 1rem;
-    }
-
     .container {
       width: 15vw;
-      @include flexer();
+      @include flexer(row);
       margin: 2rem;
-      background-color:$color1;
+      background-color: $color1;
       padding: 0 1rem;
       height: 22rem;
 
-      .box{
+      .box {
         @include flexer(column);
-        .icon{
+        .icon {
           margin-bottom: 1rem;
-          @include flexer(center,center);
+          @include flexer(center, center);
           height: 5rem;
           width: 5vw;
           font-size: 2rem;
@@ -40,12 +42,12 @@
           background: blue;
         }
 
-        .boxcontainer{
-          h2{
+        .boxcontainer {
+          h2 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
           }
-          p{
+          p {
             font-size: 1.2rem;
             text-align: center;
           }
