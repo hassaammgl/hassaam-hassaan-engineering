@@ -14,6 +14,13 @@ const Services = () => {
             <div className={style.icon}>
               <MdAddIcCall />
             </div>
+            <div className={style.boxcontainer}>
+              <h2>Power & Energy</h2>
+              <p>
+                Lorem ipsum dolor sit amet & consectetur adipisicing elit.
+                Excepturi, voluptas cum.
+              </p>
+            </div>
             <h2></h2>
           </div>
         </div>

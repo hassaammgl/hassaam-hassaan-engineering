@@ -9,13 +9,26 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
+  text-align: center;
 
   .servicecontent {
     padding: 3rem;
     width: 100vw;
     background: #ea5a1c74;
-    h2 {
-      text-align: center;
+
+    h1 {
+      margin: 1rem;
+    }
+
+    .container {
+      width: 18vw;
+      @include flexer();
+      margin: 2rem;
+      background-color:$color1;
+      height: 22rem;
+      h2 {
+        text-align: center;
+      }
     }
   }
 }
