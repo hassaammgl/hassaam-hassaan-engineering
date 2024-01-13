@@ -9,6 +9,7 @@
 
   .box {
     width: 100%;
+    overflow: hidden;
     @include flexer();
     margin-top: 2rem;
     .container {
@@ -25,9 +26,9 @@
         color: $color3;
         position: relative;
         height: 100%;
+        right:30px;
         @include flexer();
-        border-top-right-radius: 80px;
-        border-bottom-right-radius: 250px;
+        border-radius: 0% 12% 100% 59% / 10% 69% 84% 0% ;
         font-size: 2rem;
       }
 
