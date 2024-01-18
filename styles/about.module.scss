@@ -19,6 +19,7 @@
   .left {
     height: fit-content;
     width: 50%;
+    padding-left: 2rem;
 
     img {
       height: 78vh;
@@ -32,26 +33,39 @@
     height: fit-content;
     @include flexer(column);
     width: 50%;
+    padding-right: 2rem;
 
-    h2{
-        font-size: 2.5rem;
-        margin: 1rem;
+    h2 {
+      font-size: 2.5rem;
+      margin: 1rem;
     }
-    
-    p{
-        margin: 1rem;
-        font-size: 1.2rem;
+
+    p {
+      margin: 1rem;
+      font-size: 1.2rem;
     }
 
     .container {
       @include flexer();
       .box {
-        width: 18vw;
+        width: 20vw;
         height: 22vh;
         padding: 1rem;
         background: red;
-        margin: 1rem ;
+        margin: 1rem;
         @include flexer(column);
+
+        h3{
+            font-size: 1.5rem;
+        }
+
+        .p1{
+            align-items: center;
+            @include flexer();
+            font-size: 1.2rem;
+            justify-content: center;
+            margin-left: 2.5rem;
+        }
       }
     }
   }
