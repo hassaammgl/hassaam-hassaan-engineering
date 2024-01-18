@@ -6,6 +6,7 @@ import Quotation from "@/components/Quotation";
 import Achievement from "@/components/client/Achievement";
 import About from "@/components/client/About";
 import { Gallery } from "@/components/client/Gallery";
+import Footer from "@/components/client/Footer";
 export default function Home() {
   return (
     <>
@@ -15,8 +16,9 @@ export default function Home() {
       <Quotation />
       <Achievement />
       <Services />
-      <About />
       {/* <Gallery /> */}
+      <About />
+      <Footer />
     </>
   );
 }

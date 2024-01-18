@@ -1,0 +1,10 @@
+@import "./utils";
+
+.footer{
+    height: fit-content;
+    width: 100%;
+    @include flexer();
+    padding: 1rem;
+    background: #000;
+    color: white;
+}
