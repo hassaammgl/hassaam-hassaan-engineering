@@ -7,4 +7,14 @@
     @include flexer();
     padding:  2rem;
     background-color: gray;
+
+    .left{
+        height: 20vh;
+        width: 50%;
+
+        img{
+            height: 5vh;
+            width: 5vw;
+        }
+    }
 }
