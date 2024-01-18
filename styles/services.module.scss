@@ -23,7 +23,7 @@
     background: #ea5a1c74;
 
     .container {
-      width: 15vw;
+      width: 300px;
       @include flexer(row);
       margin: 2rem;
       background-color: $color1;
