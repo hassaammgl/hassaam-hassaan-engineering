@@ -3,7 +3,9 @@ import style from "@/styles/about.module.scss";
 
 const About = () => {
   return (
-    <div className={style.about}>About</div>
+    <div className={style.about}>
+        lkjhgfdsa
+    </div>
   )
 }
 
