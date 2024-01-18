@@ -15,7 +15,11 @@ const About = () => {
           <h2>Providing Full Range of High Services Solution Worldwide</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, impedit qui? Ut, ratione. Esse, fuga. Cupiditate excepturi possimus alias.</p>
           <div className={style.container}>
-            <div className={style.box}></div>
+            <div className={style.box}>
+              <div className={style.icon}></div>
+              <h3>Worldwide Manufacturing</h3>
+              <p className={style.p} >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
           </div>
         </div>
       </div>
