@@ -9,12 +9,18 @@
     background-color: gray;
 
     .left{
-        height: 20vh;
+        height:fit-content;
         width: 50%;
 
         img{
-            height: 5vh;
-            width: 5vw;
+            height: 85vh;
+            object-fit: cover;
+            width:95%;
+
         }
+    }
+
+    .right{
+        width: 50%;
     }
 }
