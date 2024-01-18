@@ -30,5 +30,17 @@
 
     .right{
         width: 50%;
+
+        .container{
+            @include flexer();
+            
+            .box{
+                height: 15vh;
+                padding: 1rem;
+                background: red;
+                margin: 1rem;
+                @include flexer(column);
+            }
+        }
     }
 }
