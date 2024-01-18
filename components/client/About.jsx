@@ -14,6 +14,9 @@ const About = () => {
         <div className={style.right}>
           <h2>Providing Full Range of High Services Solution Worldwide</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, impedit qui? Ut, ratione. Esse, fuga. Cupiditate excepturi possimus alias.</p>
+          <div className={style.container}>
+            <div className={style.box}></div>
+          </div>
         </div>
       </div>
     </>
