@@ -11,7 +11,10 @@ const About = () => {
         <div className={style.left}>
           <Image src={img} alt="aboutimg" />
         </div>
-        <div className={style.right}></div>
+        <div className={style.right}>
+          <h2>Providing Full Range of High Services Solution Worldwide</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, impedit qui? Ut, ratione. Esse, fuga. Cupiditate excepturi possimus alias.</p>
+        </div>
       </div>
     </>
   );
