@@ -18,6 +18,7 @@
 
   .servicecontent {
     @include flexer(row);
+    flex-wrap: wrap;
     gap: 2rem;
     padding: 3rem;
     width: 100vw;
