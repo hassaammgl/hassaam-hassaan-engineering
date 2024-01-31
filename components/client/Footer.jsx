@@ -44,7 +44,7 @@ const Footer = () => {
           <p>Goal Chakar, Nankana Sahib</p>
         </div>
         <div className={style.location}>
-          <IoMdCall />
+          <IoMdCall className={style.locationicon} />
           <p>+92 3099156184</p>
         </div>
         <h2>Open Hours</h2>
