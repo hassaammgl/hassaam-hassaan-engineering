@@ -1,11 +1,11 @@
 import React from "react";
-import style from "@/styles/footer.module.scss";
 import Image from "next/image";
 import Button from "../Button";
-import logo from "@/public/companylogo.png";
-import { IoIosSend } from "react-icons/io";
-import { IoLocation } from "react-icons/io5";
 import { IoMdCall } from "react-icons/io";
+import { IoIosSend } from "react-icons/io";
+import logo from "@/public/companylogo.png";
+import { IoLocation } from "react-icons/io5";
+import style from "@/styles/footer.module.scss";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
