@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className={style.hour}>
           <h2>Open Hours</h2>
-          <p>Mon - Sat: 8am - 5pm</p>
+          <p>Mon - Sun: 8am - 5pm</p>
           <p>Friday: Closed</p>
         </div>
       </div>
