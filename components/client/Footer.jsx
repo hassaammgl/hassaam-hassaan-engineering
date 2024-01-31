@@ -1,6 +1,7 @@
 import React from 'react'
 import style from "@/styles/footer.module.scss";
 import Image from 'next/image';
+import Button from '../Button';
 import logo from "@/public/companylogo.png";
 
 const Footer = () => {
@@ -8,7 +9,9 @@ const Footer = () => {
     <div className={style.footer}>
       <div className={style.left}>
         <div className={style.left1}>
-          <Image src={logo}  alt='' />
+          <Image src={logo} className={style.img}  alt='' />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt unde ducimus veniam reprehenderit natus aperiam.</p>
+        <Button />
         </div>
         <div className={style.left2}></div>
       </div>
