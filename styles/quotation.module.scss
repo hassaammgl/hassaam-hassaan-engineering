@@ -17,6 +17,11 @@
       font-size: 2.5rem;
       color: $color3;
     }
+
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
   }
 
   .right {
@@ -41,9 +46,27 @@
         }
       }
     }
+    @media screen and (max-width: 900px) {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 600px) {
+      @include flexer(column);
+    }
   }
 
   @media screen and (max-width: 1170px) {
-    margin: 3rem 1rem;
+    // margin: 3rem 1rem;
+    width: 55rem;
   }
+
+  @media screen and (max-width: 900px) {
+    @include flexer(column);
+    width: 35rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 90%;
+  }
+
 }
