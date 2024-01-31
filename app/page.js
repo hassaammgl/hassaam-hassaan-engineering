@@ -18,7 +18,7 @@ export default function Home() {
       {/* <Achievement /> */}
       {/* <Services /> */}
       {/* <Gallery /> */}
-      {/* <About /> */}
+      <About />
       <Footer />
     </>
   );
