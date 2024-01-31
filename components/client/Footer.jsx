@@ -28,7 +28,9 @@ const Footer = () => {
         </p>
         <div className={style.subscribe}>
           <input type="text" placeholder="Your email address" />
-          <IoIosSend className={style.icon} />
+          <div className={style.send}>
+          <IoIosSend />
+          </div>
         </div>
         <div className={style.social}>
           <FaFacebook />
