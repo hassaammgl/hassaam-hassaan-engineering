@@ -15,11 +15,11 @@ export default function Home() {
       {/* <Main /> */}
       {/* <Client /> */}
       <Quotation />
-      {/* <Achievement />
+      <Achievement />
       <Services />
       <Gallery />
       <About />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
