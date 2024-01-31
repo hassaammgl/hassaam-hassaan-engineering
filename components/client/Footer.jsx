@@ -40,7 +40,7 @@ const Footer = () => {
       <div className={style.left3}>
         <h3 className={style.word}>Official Info</h3>
         <div className={style.location}>
-          <IoLocation />
+          <IoLocation className={style.locationicon} />
           <p>Goal Chakar, Nankana Sahib</p>
         </div>
         <div className={style.location}>
