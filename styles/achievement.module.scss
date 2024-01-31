@@ -11,6 +11,7 @@
     width: 100%;
     overflow: hidden;
     @include flexer();
+    flex-wrap: wrap;
     margin-top: 2rem;
     .container {
       height: 12rem;
@@ -18,7 +19,7 @@
       padding: 0;
       @include flexer(row);
       background: $color3;
-      width: 25%;
+      width: 350px;
 
       .icon {
         width: 40%;
