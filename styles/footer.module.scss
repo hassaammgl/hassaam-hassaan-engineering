@@ -108,8 +108,16 @@
       }
     }
     .hour {
-      color: white;
       margin: 0.5rem;
+
+      h2{
+        font-size: 1.8rem;
+        margin: 0.5rem 0;
+      }
+      p{
+        font-size: 1.2rem;
+        color: white;
+      }
     }
   }
 }
