@@ -91,5 +91,9 @@
         border-bottom: 3px solid $color1;
         margin: 0.5rem;
       }
+
+      .location{
+        @include flexer();
+      }
   }
 }
