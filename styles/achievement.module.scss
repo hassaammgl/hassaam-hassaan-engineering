@@ -7,7 +7,12 @@
   color: white;
   @include flexer(column);
 
+  h1{
+    font-family: $ubuntu;
+  }
+
   .box {
+    font-family: $fonts;
     width: 100%;
     overflow: hidden;
     @include flexer();
