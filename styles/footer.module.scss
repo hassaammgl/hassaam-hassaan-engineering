@@ -53,15 +53,22 @@
       }
       .send {
         padding: 0.5rem;
-        background: red;
+        background: $color1;
         height: 2.1rem;
         width: 2.1rem;
         cursor: pointer;
 
-        .sendicon{
-            font-size: 1.1rem;
+        .sendicon {
+          font-size: 1.1rem;
         }
       }
+    }
+
+    .social{
+        @include flexer();
+        margin: 0.5rem;
+        font-size: 1.5rem;
+        gap: 0.8rem;
     }
   }
 }

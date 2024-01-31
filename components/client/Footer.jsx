@@ -29,12 +29,12 @@ const Footer = () => {
         <div className={style.subscribe}>
           <input type="text" placeholder="Your email address" />
           <div className={style.send}>
-          <IoIosSend className={style.sendicon} />
+            <IoIosSend className={style.sendicon} />
           </div>
         </div>
         <div className={style.social}>
-          <FaFacebook />
-          <FaInstagram />
+          <FaFacebook className={style.socialicon} />
+          <FaInstagram className={style.socialicon} />
         </div>
       </div>
       <div className={style.left3}>
