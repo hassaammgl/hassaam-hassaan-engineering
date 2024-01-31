@@ -1,15 +1,18 @@
 @import "./utils";
 
-.footer{
-    height: fit-content;
-    padding: 2rem;
-    width: 100%;
-    background-color: darkgrey;
+.footer {
+  height: fit-content;
+  padding: 2rem;
+  width: 100%;
+  background-color: darkgrey;
+  @include flexer();
+  justify-content: space-between;
 
-    .left1{
-        .img{
-            height: 5rem;
-            width: 10rem;
-        }
+  .left1 {
+    @include flexer(column);
+    .img {
+      height: 5rem;
+      width: 10rem;
     }
+  }
 }
