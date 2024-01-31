@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className={style.left2}>
         <h3 className={style.word}>NewsLetter</h3>
-        <p>
+        <p className={style.leftp}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
           consequatur.
         </p>
