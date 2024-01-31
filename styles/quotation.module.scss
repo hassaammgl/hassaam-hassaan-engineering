@@ -2,7 +2,7 @@
 
 .quotation {
   @include flexer(row, space-between);
-  width: 60%;
+  width: 72rem;
   background-color: gray;
   height: fit-content;
   padding: 2.5rem 1rem;
@@ -10,7 +10,7 @@
   border-radius: 15px;
 
   .left {
-    width: 50%;
+    width: 45%;
     justify-content: center;
 
     h2 {
@@ -21,7 +21,7 @@
 
   .right {
     padding: 0 0.5rem;
-    width: 50%;
+    width: 55%;
     @include flexer(row, space-between);
     gap: 1rem;
 
@@ -41,5 +41,9 @@
         }
       }
     }
+  }
+
+  @media screen and (max-width: 1170px) {
+    // width: 50rem;
   }
 }
