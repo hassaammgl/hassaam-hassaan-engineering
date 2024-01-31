@@ -79,4 +79,17 @@
       }
     }
   }
+
+  .left3{
+      margin: 0.5rem;
+      @include flexer(column);
+      align-items: start;
+
+      .word{
+        font-weight: bold;
+        font-size: 1.8rem;
+        border-bottom: 3px solid $color1;
+        margin: 0.5rem;
+      }
+  }
 }
