@@ -11,7 +11,7 @@ const Footer = () => {
         <div className={style.left1}>
           <Image src={logo} className={style.img}  alt='' />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt unde ducimus veniam reprehenderit natus aperiam.</p>
-        <Button />
+        <Button name={"More About us"}  />
         </div>
         <div className={style.left2}></div>
       </div>
