@@ -2,11 +2,12 @@
 
 .footer {
   height: fit-content;
-  padding: 2rem 4rem;
+  padding: 3rem 4rem;
   width: 100%;
   background-color: darkgrey;
   @include flexer();
   justify-content: space-between;
+  flex-wrap: wrap;
 
   .left1 {
     @include flexer(column);
