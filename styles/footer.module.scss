@@ -28,6 +28,10 @@
       margin: 0.5rem;
       font-family: $fonts;
     }
+
+    @media screen and (max-width:1120px) {
+      margin-bottom: 2rem;
+    }
   }
 
   .left2 {
@@ -91,6 +95,10 @@
         }
       }
     }
+
+    @media screen and (max-width:1120px) {
+      margin-bottom: 2rem;
+    }
   }
 
   .left3 {
@@ -140,5 +148,9 @@
         color: white;
       }
     }
+  }
+
+  @media screen and (max-width:500px) {
+  padding: 3rem 1.2rem;    
   }
 }
