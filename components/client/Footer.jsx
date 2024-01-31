@@ -14,8 +14,9 @@ const Footer = () => {
       <div className={style.left1}>
         <Image src={logo} className={style.img} alt="" />
         <p className={style.imgp}>
-          Lorem ipsum dolor sit amet <br />  consectetur adipisicing elit. Incidunt <br />
-          ducimus veniam reprehenderit natus          
+          Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
+          Incidunt <br />
+          ducimus veniam reprehenderit natus
         </p>
         <Button name={"More About us"} />
       </div>
@@ -25,9 +26,9 @@ const Footer = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
           consequatur.
         </p>
-        <div className="subscribe">
-          <input type="text" placeholder="Your email address" />  
-            <IoIosSend className={style.icon} />
+        <div className={style.subscribe}>
+          <input type="text" placeholder="Your email address" />
+          <IoIosSend className={style.icon} />
         </div>
         <div className={style.social}>
           <FaFacebook />

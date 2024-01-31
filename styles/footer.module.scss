@@ -37,9 +37,14 @@
       margin: 0.5rem;
       font-size: 1.2rem;
     }
-
+    
     .subscribe{
         @include flexer(row);
+        margin: 0.5rem;
+
+        input{
+            all: unset;
+        }
     }
   }
 }
