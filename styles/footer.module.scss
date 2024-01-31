@@ -2,7 +2,7 @@
 
 .footer {
   height: fit-content;
-  padding: 2rem;
+  padding: 2rem 4rem;
   width: 100%;
   background-color: darkgrey;
   @include flexer();
@@ -10,9 +10,15 @@
 
   .left1 {
     @include flexer(column);
+    align-items: start;
     .img {
-      height: 5rem;
-      width: 10rem;
+      height: 6rem;
+      width: 14rem;
+      margin: .5rem;
+    }
+    .imgp{
+        font-size: 1.2rem;
+        margin: 0.5rem;
     }
   }
 }

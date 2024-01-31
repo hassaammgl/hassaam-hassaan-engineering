@@ -13,9 +13,9 @@ const Footer = () => {
     <div className={style.footer}>
       <div className={style.left1}>
         <Image src={logo} className={style.img} alt="" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt unde
-          ducimus veniam reprehenderit natus aperiam.
+        <p className={style.imgp}>
+          Lorem ipsum dolor sit amet <br />  consectetur adipisicing elit. Incidunt <br />
+          ducimus veniam reprehenderit natus          
         </p>
         <Button name={"More About us"} />
       </div>
