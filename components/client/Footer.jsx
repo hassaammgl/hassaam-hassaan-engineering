@@ -47,9 +47,11 @@ const Footer = () => {
           <IoMdCall className={style.locationicon} />
           <p className={style.locationp} >+92 3099156184</p>
         </div>
+        <div className={style.hour}>
         <h2>Open Hours</h2>
         <p>Mon - Sat: 8am - 5pm</p>
         <p>Sunday: Closed</p>
+        </div>
       </div>
     </div>
   );
