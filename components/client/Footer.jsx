@@ -27,7 +27,7 @@ const Footer = () => {
           consequatur.
         </p>
         <div className={style.subscribe}>
-          <input type="text" placeholder="Your email address" />
+          <input type="text" placeholder="Your email address" required />
           <div className={style.send}>
             <IoIosSend className={style.sendicon} />
           </div>
