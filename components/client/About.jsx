@@ -20,14 +20,12 @@ const About = () => {
           </p>
           <div className={style.container}>
             <div className={style.box}>
-              <div className={style.icon}></div>
               <h3>Worldwide Manufacturing</h3>
               <p className={style.p1}>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
             </div>
             <div className={style.box}>
-              <div className={style.icon}></div>
               <h3>Best Quality Services</h3>
               <p className={style.p1}>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
