@@ -13,6 +13,7 @@
   h1 {
     padding: 2rem .8rem;
     background: #ea5a1c74;
+    font-family: $ubuntu;
   }
 
   .servicecontent {
@@ -46,9 +47,11 @@
           h2 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
+            font-family: $ubuntu;
           }
           p {
             font-size: 1.2rem;
+            font-family: $fonts;
             text-align: center;
           }
         }

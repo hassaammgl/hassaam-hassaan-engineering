@@ -16,10 +16,10 @@ export default function Home() {
       {/* <Client /> */}
       {/* <Quotation /> */}
       {/* <Achievement /> */}
-      {/* <Services /> */}
+      <Services />
       {/* <Gallery /> */}
-      <About />
-      {/* <Footer /> */}
+      {/* <About />
+      <Footer /> */}
     </>
   );
 }
