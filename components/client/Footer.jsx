@@ -32,8 +32,8 @@ const Footer = () => {
           </div>
         </div>
         <div className={style.social}>
-        <FaFacebook />
-        <FaInstagram />
+          <FaFacebook />
+          <FaInstagram />
         </div>
       </div>
       <div className={style.left3}>
