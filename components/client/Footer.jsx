@@ -6,6 +6,7 @@ import logo from "@/public/companylogo.png";
 import { IoIosSend } from "react-icons/io";
 import { IoLocation } from "react-icons/io5";
 import { IoMdCall } from "react-icons/io";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -29,6 +30,10 @@ const Footer = () => {
           <div className={style.send}>
             <IoIosSend className={style.icon} />
           </div>
+        </div>
+        <div className={style.social}>
+        <FaFacebook />
+        <FaInstagram />
         </div>
       </div>
       <div className={style.left3}>
