@@ -24,7 +24,7 @@ const Quotation = () => {
           </div>
           <div className={style.rright}>
             <p>Call us Now</p>
-            <p>+92 2348855445</p>
+            <p className={style.rrright}>+92 2348855445</p>
           </div>
         </div>
         <Button name={"Get Appointment"} />
