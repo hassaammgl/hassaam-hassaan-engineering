@@ -24,7 +24,7 @@
       padding: 0;
       @include flexer(row);
       background: $color3;
-      width: 360px;
+      width: 380px;
 
       .icon {
         width: 40%;
@@ -34,7 +34,7 @@
         height: 100%;
         right:30px;
         @include flexer();
-        border-radius: 0% 12% 100% 59% / 10% 69% 84% 0% ;
+        border-radius:0% 50% 91% 25% / 10% 54% 55% 0%   ;
         font-size: 2rem;
       }
 
