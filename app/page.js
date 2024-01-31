@@ -7,6 +7,7 @@ import Achievement from "@/components/client/Achievement";
 import About from "@/components/client/About";
 import { Gallery } from "@/components/client/Gallery";
 import Footer from "@/components/client/Footer";
+
 export default function Home() {
   return (
     <>
