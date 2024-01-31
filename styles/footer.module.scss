@@ -45,15 +45,19 @@
       input {
         all: unset;
         background: #000;
+        color: white;
+        caret-color: $color1;
         padding: 0.5rem;
         width: 15rem;
+      }
+      .send {
+        padding: 0.5rem;
+        background: red;
+        height: 2.1rem;
+        width: 2.1rem;
 
-        .send {
-          width: 2rem;
-          height: 2rem;
-          background: black;
-          font-size: 3rem;
-          color: $color1;
+        .sendicon{
+            font-size: 1.1rem;
         }
       }
     }
