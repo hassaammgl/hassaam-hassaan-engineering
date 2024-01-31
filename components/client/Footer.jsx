@@ -41,11 +41,11 @@ const Footer = () => {
         <h3 className={style.word}>Official Info</h3>
         <div className={style.location}>
           <IoLocation className={style.locationicon} />
-          <p>Goal Chakar, Nankana Sahib</p>
+          <p className={style.locationp}>Goal Chakar, Nankana Sahib</p>
         </div>
         <div className={style.location}>
           <IoMdCall className={style.locationicon} />
-          <p>+92 3099156184</p>
+          <p className={style.locationp} >+92 3099156184</p>
         </div>
         <h2>Open Hours</h2>
         <p>Mon - Sat: 8am - 5pm</p>
