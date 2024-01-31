@@ -14,12 +14,12 @@ export default function Home() {
       {/* <Header /> */}
       {/* <Main /> */}
       {/* <Client /> */}
-      {/* <Quotation /> */}
-      <Achievement />
+      <Quotation />
+      {/* <Achievement />
       <Services />
       <Gallery />
       <About />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
