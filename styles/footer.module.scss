@@ -32,11 +32,14 @@
       border-bottom: 3px solid $color1;
       margin: 0.5rem;
     }
-    .leftp{
-        width: 20rem;
-        margin: 0.5rem;
-        font-size: 1.2rem;
+    .leftp {
+      width: 20rem;
+      margin: 0.5rem;
+      font-size: 1.2rem;
+    }
 
+    .subscribe{
+        @include flexer(row);
     }
   }
 }
