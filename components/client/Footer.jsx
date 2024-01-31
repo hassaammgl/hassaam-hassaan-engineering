@@ -18,7 +18,7 @@ const Footer = () => {
           Incidunt <br />
           ducimus veniam reprehenderit natus
         </p>
-        <Button name={"More About us"} />
+        <Button name={"More About us"} className={style.button} />
       </div>
       <div className={style.left2}>
         <h3 className={style.word}>NewsLetter</h3>
