@@ -2,29 +2,50 @@
 import React from "react";
 import ServerHome from "../server/Home";
 import style from "@/styles/home.module.scss";
+import RevealWrapper from "next-reveal";
 
 const Home = () => {
   return (
     <ServerHome>
-        <div className={style.home}>
-          <div className={style.left}>
-            <h2 className={style.lefth2}>
-              Welcome You By <span>HHE</span>
-            </h2>
-            <h1>
-              We&#39;re Best <span>Providing</span> <br /> Mechanical
-              Engineering Company
-            </h1>
-            <p className={style.companyp}>
-              Our company is ready to help you in making unique-looking <br />{" "}
-              and best products.
-            </p>
-          </div>
-          <div className={style.right}>
-            this place is called right han kya samjhe beru
-          </div>
-          {/* <Right /> */}
+      <div className={style.home}>
+        <RevealWrapper
+          rotate={{ x: 12, y: 40, z: 0 }}
+          origin="left"
+          delay={200}
+          duration={1000}
+          distance="500px"
+          reset={true}
+          viewOffset={{ top: 25, right: 0, bottom: 10, left: 5 }}
+        >
+          <h1 className="text-blue-700 text-6xl leading-5 mt-36">
+            Welcome to{" "}
+            <a
+              className="focus:underline active:underline hover:underline"
+              href="https://github.com/ritmillio/next-reveal"
+            >
+              next-reveal!
+            </a>
+          </h1>
+          <p className="text-sm mt-5 ml-2">A package based on ScrollReveal</p>
+        </RevealWrapper>
+        <div className={style.left}>
+          <h2 className={style.lefth2}>
+            Welcome You By <span>HHE</span>
+          </h2>
+          <h1>
+            We&#39;re Best <span>Providing</span> <br /> Mechanical Engineering
+            Company
+          </h1>
+          <p className={style.companyp}>
+            Our company is ready to help you in making unique-looking <br /> and
+            best products.
+          </p>
         </div>
+        <div className={style.right}>
+          this place is called right han kya samjhe beru
+        </div>
+        {/* <Right /> */}
+      </div>
     </ServerHome>
   );
 };
