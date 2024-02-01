@@ -83,13 +83,24 @@
 
 @media screen and (max-width:500px) {
   .home{
+    padding: 1rem;
     @include flexer(column);
     height: fit-content;
 
     .left{
+      padding: 0;
       height: fit-content;
+
+      .lefth2{
+        font-size: 1.8rem;
+      }
+
+      h1{
+        font-size: 2.5rem;
+      }
     }
     .right{
+      padding: 0;
       height: fit-content;
     }
   }
