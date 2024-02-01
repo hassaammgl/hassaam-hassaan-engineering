@@ -14,9 +14,9 @@ const Services = () => {
           Happy With <br /> Customers & Clients
         </h2>
         <p className={style.p}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+          Lorem, ipsum dolor sit amet consecur adipisicing elit. Recusan,
           aliquam distinctio omnis iusto ea ex qui ipsum delectus officia
-          laborum ut molestiae commodi soluta laboriosam, explicabo iste?
+          laborum ut molestiae commodi soluta laboriosam, expabo iste?
           Aspernatur.
         </p>
         <div className={style.call}>

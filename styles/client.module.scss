@@ -135,6 +135,10 @@
     padding: 1rem;
     .left {
       @include flexer(center);
+
+      .p{
+        margin: 1rem  0;
+      }
       .call {
         .callcontent {
           .callp {
