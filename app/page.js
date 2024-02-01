@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <>
       {/* <Header /> */}
-      {/* <Main /> */}
-      <Client />
-      {/* <Quotation />
+      <Main />
+      {/* <Client />
+      <Quotation />
       <Achievement />
       <Services />
       <Gallery />
