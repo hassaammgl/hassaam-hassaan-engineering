@@ -2,15 +2,22 @@
 import React from "react";
 import ServerHome from "../server/Home";
 import style from "@/styles/home.module.scss";
+import { Scrolling } from "react-scrolling";
 
 const Home = () => {
   return (
     <ServerHome>
       <div className={style.home}>
         <div className={style.left}>
-          <h2 className={style.lefth2}>
-            Welcome You By <span>HHE</span>
-          </h2>
+          <Scrolling
+            animate="fade-right"
+            transition={{ easing: "ease-in", delay: 20 }}
+          >
+            <h2 className={style.lefth2}>
+              Welcome You By <span>HHE</span>
+            </h2>
+          </Scrolling>
+
           <h1>
             We&#39;re Best <span>Providing</span> <br /> Mechanical Engineering
             Company
