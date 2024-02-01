@@ -35,6 +35,10 @@
           font-size: 1.8rem;
         }
       }
+
+      @media screen and (max-width:500px) {
+        display: none;
+      }
     }
   }
   .links {
@@ -53,6 +57,10 @@
       font-size: 1.2rem;
       margin: 0 1.2rem;
       font-weight: bolder;
+    }
+
+    @media screen and (max-width:500px) {
+      display: none;
     }
   }
 }

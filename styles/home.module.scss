@@ -80,3 +80,17 @@
     left: 0;
   }
 }
+
+@media screen and (max-width:500px) {
+  .home{
+    @include flexer(column);
+    height: fit-content;
+
+    .left{
+      height: fit-content;
+    }
+    .right{
+      height: fit-content;
+    }
+  }
+}
