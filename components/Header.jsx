@@ -11,7 +11,7 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <div className={`${style.header} ${ubuntu.className}`}>
+    <div className={`${style.header} ${ubuntu.className} ${style.bounce}`}>
       <div className={style.upperheader}>
         <Image className={style.img} alt="" src={company} />
         <div className={`${style.customer} ${roboto.className}`}>
