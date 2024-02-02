@@ -12,7 +12,12 @@ export default function Home() {
         <Header />
         <div className={style.product}>
             <h2>Our Products</h2>
+            <div className={style.productdet}>
             <ProductDetails />
+            <ProductDetails />
+            <ProductDetails />
+            <ProductDetails />
+            </div>
         </div>
         <Footer />
         </>
