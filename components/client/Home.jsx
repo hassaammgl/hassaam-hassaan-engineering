@@ -2,7 +2,6 @@
 import React from "react";
 import ServerHome from "../server/Home";
 import style from "@/styles/home.module.scss";
-import { Scrolling } from "react-scrolling";
 
 const Home = () => {
   return (
@@ -13,7 +12,7 @@ const Home = () => {
             Welcome You By <span>HHE</span>
           </h2>
 
-          <h1>
+          <h1 className={style.bounceleft}>
             We&#39;re Best <span>Providing</span> <br /> Mechanical Engineering
             Company
           </h1>
