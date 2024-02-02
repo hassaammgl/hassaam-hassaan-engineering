@@ -16,7 +16,7 @@ const Home = () => {
             We&#39;re Best <span>Providing</span> <br /> Mechanical Engineering
             Company
           </h1>
-          <p className={style.companyp}>
+          <p className={`${style.companyp} ${style.slideleft}`}>
             Our company is ready to help you in making unique-looking <br /> and
             best products.
           </p>
