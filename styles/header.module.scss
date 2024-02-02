@@ -9,7 +9,6 @@
   .upperheader {
     width: 100%;
     padding: 1rem 4rem;
-    background-color: red;
     @include flexer(row, space-evenly);
 
     .img {
@@ -67,6 +66,9 @@
     @media screen and (max-width: 970px) {
       display: none;
     }
+  }
+  @media screen and (max-width:970px) {
+        height: 100px;
   }
 }
 
