@@ -43,15 +43,17 @@
   }
 
   .response {
-    display: none;
+        display: none;
     .responsive {
       background: #000;
       height: 400px;
       display: flex;
-      width: 150px;
+      width: 100%;
+      text-align: center;
       flex-direction: column;
       position: absolute;
-      left: 0;
+//       left: 40%;
+      left: 0%;
       top: 0;
 
       a {
@@ -62,9 +64,9 @@
       }
     }
 
-    @media screen and (max-width: 979px) {
-      display: block;
-      @include flexer();
+    @media screen and (max-width:979px) {
+        display: block;
+        position:relative;
     }
   }
 
