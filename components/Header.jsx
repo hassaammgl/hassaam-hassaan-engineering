@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 import { FaAward } from "react-icons/fa";
 import company from "@/public/companylogo.png";
@@ -8,13 +10,23 @@ import { RiCustomerService2Line } from "react-icons/ri";
 import { ubuntu, roboto } from "@/components/fonts";
 import Link from "next/link";
 import Button from "./Button";
+import { AiFillClockCircle, AiFillMedicineBox } from "react-icons/ai";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const HandleMenuOpen = () => {
+    if (menuOpen) {
+      setMenuOpen(false);
+    } else {
+      setMenuOpen(true);
+    }
+  };
   return (
     <div className={`${style.header} ${ubuntu.className} ${style.bounce}`}>
       <div className={style.upperheader}>
         <Image className={style.img} alt="" src={company} />
-        <div className={`${style.customer} ${roboto.className}`}>
+        {/* <div className={`${style.customer} ${roboto.className}`}>
           <div className={style.icon}>
             <RiCustomerService2Line className={style.headericon} />
           </div>
@@ -50,6 +62,21 @@ const Header = () => {
           <Link href={"/Contact"}>Contact Us</Link>
         </div>
         <Button name={"Get a Quote"} />
+      </div> */}
+
+        <div className={style.response}>
+          <button onClick={HandleMenuOpen}>
+            {menuOpen ? <AiFillClockCircle   /> : <AiFillMedicineBox />}
+          </button>
+          {menuOpen && (
+            <div className={style.responsive}>
+              <Link href={"/"}>Home</Link>
+              <Link href={"/Services"}>Services</Link>
+              <Link href={"/Products"}>Products</Link>
+              <Link href={"/Contact"}>Contact Us</Link>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
