@@ -25,7 +25,9 @@ const Header = () => {
   return (
     <div className={`${style.header} ${ubuntu.className} ${style.bounce}`}>
       <div className={style.upperheader}>
-        <Image className={style.img} alt="" src={company} />
+        <Link href={"/"}>
+          <Image className={style.img} alt="" src={company} />
+        </Link>
         <div className={`${style.customer} ${roboto.className}`}>
           <div className={style.icon}>
             <RiCustomerService2Line className={style.headericon} />
