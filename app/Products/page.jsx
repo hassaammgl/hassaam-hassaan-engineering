@@ -4,6 +4,7 @@ import style from "@/styles/product.module.scss";
 import Footer from "@/components/Client/Footer";
 import Header from "@/components/Header";
 import React from "react";
+import ProductDetails from "@/components/Client/ProductDetails";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Header />
         <div className={style.product}>
             <h2>Our Products</h2>
+            <ProductDetails />
         </div>
         <Footer />
         </>
