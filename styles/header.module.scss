@@ -93,25 +93,13 @@
 }
 
 @media screen and (max-width: 979px) {
-        .header{
-                .upperheader{
-                        padding: 1rem;
-                }
-        }
+  .header {
+    .upperheader {
+      padding: 1rem 1.5rem;
+      @include flexer(row, space-between);
+    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
