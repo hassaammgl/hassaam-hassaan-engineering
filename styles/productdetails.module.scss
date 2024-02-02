@@ -1,22 +1,73 @@
 @import "./utils";
 
-.productdetail{
-    @include flexer(center);
-    height: 40vh;
-    width: 300px;
-    background: gray;
-    
-    .box{
-        margin: 2rem 0;
-        img{
-            height:28vh;
-            object-fit: cover;
-            width: 300px;
-        }
-        
-        .content{
-            height: 12vh;
-            padding: 1rem 0.5rem;
-        }
+
+.card{
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.613) 0px 10px 15px;
     }
+}
+
+.card:hover .cardbody{
+    right: 0;
+}
+
+.cardimg{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.cardbody{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: rgba(211, 211, 211, 0.289);
+    backdrop-filter: blur(5px);
+    border-radius: 7px;
+    color: #fff;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .8s;
+}
+
+.cardtitle{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.cardsubtitle{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.cardinfo{
+    font-size: 1rem;
+    line-height: 25px;
+    margin: 2.5rem 0;
+    font-weight: 400;
+}
+
+.cardbtn{
+    all: unset;
+    text-transform: capitalize;
+    padding: .8rem 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #1f3d47;
+    text-align: center;
+    width: 120px;
+    background: #8fabba;
 }
