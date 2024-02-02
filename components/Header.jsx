@@ -26,7 +26,7 @@ const Header = () => {
     <div className={`${style.header} ${ubuntu.className} ${style.bounce}`}>
       <div className={style.upperheader}>
         <Image className={style.img} alt="" src={company} />
-        {/* <div className={`${style.customer} ${roboto.className}`}>
+        <div className={`${style.customer} ${roboto.className}`}>
           <div className={style.icon}>
             <RiCustomerService2Line className={style.headericon} />
           </div>
@@ -62,21 +62,20 @@ const Header = () => {
           <Link href={"/Contact"}>Contact Us</Link>
         </div>
         <Button name={"Get a Quote"} />
-      </div> */}
+      </div>
 
-        <div className={style.response}>
-          <button onClick={HandleMenuOpen}>
-            {menuOpen ? <AiFillClockCircle   /> : <AiFillMedicineBox />}
-          </button>
-          {menuOpen && (
-            <div className={style.responsive}>
-              <Link href={"/"}>Home</Link>
-              <Link href={"/Services"}>Services</Link>
-              <Link href={"/Products"}>Products</Link>
-              <Link href={"/Contact"}>Contact Us</Link>
-            </div>
-          )}
-        </div>
+      <div className={style.response}>
+        <button onClick={HandleMenuOpen}>
+          {menuOpen ? <AiFillClockCircle /> : <AiFillMedicineBox />}
+        </button>
+        {menuOpen && (
+          <div className={style.responsive}>
+            <Link href={"/"}>Home</Link>
+            <Link href={"/Services"}>Services</Link>
+            <Link href={"/Products"}>Products</Link>
+            <Link href={"/Contact"}>Contact Us</Link>
+          </div>
+        )}
       </div>
     </div>
   );

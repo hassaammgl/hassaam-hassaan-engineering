@@ -43,6 +43,7 @@
   }
 
   .response {
+    display: none;
     .responsive {
       background: #000;
       height: 400px;
@@ -50,7 +51,7 @@
       width: 150px;
       flex-direction: column;
       position: absolute;
-      left: 50%;
+      left: 0;
       top: 0;
 
       a {
@@ -59,6 +60,11 @@
         font-size: 2rem;
         margin: 2rem;
       }
+    }
+
+    @media screen and (max-width: 979px) {
+      display: block;
+      @include flexer();
     }
   }
 
@@ -100,9 +106,6 @@
     }
   }
 }
-
-
-
 
 .bounce {
   -webkit-animation: bounce-in-bck 1.1s both;
