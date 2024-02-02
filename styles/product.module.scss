@@ -1,0 +1,13 @@
+@import "./utils";      
+
+.product{
+    height: fit-content;
+    width: 100%;
+    padding: 2rem;
+
+    h2{
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: $ubuntu;
+    }
+}

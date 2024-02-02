@@ -9,9 +9,9 @@ const Home = () => {
     <ServerHome>
       <div className={style.home}>
         <div className={style.left}>
-            <h2 className={`${style.lefth2} ${style.tiltleft}`}>
-              Welcome You By <span>HHE</span>
-            </h2>
+          <h2 className={`${style.lefth2} ${style.tiltleft}`}>
+            Welcome You By <span>HHE</span>
+          </h2>
 
           <h1>
             We&#39;re Best <span>Providing</span> <br /> Mechanical Engineering
