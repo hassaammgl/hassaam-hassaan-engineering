@@ -32,7 +32,7 @@ const Services = () => {
         <Button name={"OUR SERVICES"} />
         </div>
       </div>
-      <div className={style.right}>
+      <div className={`${style.right} ${style.slideright}`}>
         <div className={style.rightcontent}>
           <Image className={style.clientimg} src={client} alt="client" />
           <h3>BUYER</h3>
