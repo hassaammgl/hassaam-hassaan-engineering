@@ -1,1 +1,21 @@
 @import "./utils";
+
+.productdetail{
+    @include flexer(center);
+    height: 40vh;
+    width: 300px;
+    background: gray;
+    
+    .box{
+        img{
+            height:25vh;
+            object-fit: cover;
+            width: 300px;
+        }
+        
+        .content{
+            height: 15vh;
+            padding: 1rem 0.5rem;
+        }
+    }
+}
