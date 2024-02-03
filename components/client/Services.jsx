@@ -11,7 +11,7 @@ const Services = () => {
       <div className={style.servicecontent}>
         <div className={style.container}>
           <div className={style.box}>
-            <div className={style.icon}>
+            <div className={`${style.icon} ${style.border}`}>
               <MdAddIcCall />
             </div>
             <div className={style.boxcontainer}>

@@ -11,12 +11,12 @@
   text-align: center;
 
   h1 {
-    padding: 2rem .8rem;
+    padding: 2rem 0.8rem;
     background: #ea5a1c74;
     font-family: $ubuntu;
 
-    @media screen and (max-width:500px) {
-      padding: 2rem .3rem;
+    @media screen and (max-width: 500px) {
+      padding: 2rem 0.3rem;
     }
   }
 
@@ -46,6 +46,20 @@
           font-size: 2rem;
           border-radius: 50px;
           background: blue;
+          // border: 2px dashed white;
+          // padding: 10px;
+        }
+
+        .border {
+          border: 3px dashed white; /* Your border style */
+          padding: 20px; /* Optional: Add padding to make the border more visible */
+          transition: transform 0.5s ease-in-out; /* Add a smooth transition effect */
+        }
+
+        .border:hover {
+          transform: rotate(
+            360deg
+          ); /* Rotate the border 360 degrees on hover */
         }
 
         .boxcontainer {
@@ -66,12 +80,12 @@
         text-align: center;
       }
 
-      @media screen and (max-width:500px) {
+      @media screen and (max-width: 500px) {
         margin: 1rem;
       }
     }
 
-    @media screen and (max-width:500px) {
+    @media screen and (max-width: 500px) {
       padding: 1rem;
     }
   }
