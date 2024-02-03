@@ -18,7 +18,7 @@ const About = () => {
             impedit qui? Ut, ratione. Esse, fuga. Cupiditate excepturi possimus
             alias.
           </p>
-          <div className={style.container}>
+          <div className={`${style.container}`}>
             <div className={style.box}>
               <h3>Worldwide Manufacturing</h3>
               <p className={style.p1}>
