@@ -21,12 +21,11 @@ const Services = () => {
                 Excepturi, voluptas cum.
               </p>
             </div>
-            <h2></h2>
           </div>
         </div>
         <div className={style.container}>
           <div className={style.box}>
-            <div className={style.icon}>
+            <div className={`${style.icon} ${style.border}`}>
               <MdAddIcCall />
             </div>
             <div className={style.boxcontainer}>
@@ -36,12 +35,11 @@ const Services = () => {
                 Excepturi, voluptas cum.
               </p>
             </div>
-            <h2></h2>
           </div>
         </div>
         <div className={style.container}>
           <div className={style.box}>
-            <div className={style.icon}>
+            <div className={`${style.icon} ${style.border}`}>
               <MdAddIcCall />
             </div>
             <div className={style.boxcontainer}>
@@ -51,7 +49,6 @@ const Services = () => {
                 Excepturi, voluptas cum.
               </p>
             </div>
-            <h2></h2>
           </div>
         </div>
       </div>
