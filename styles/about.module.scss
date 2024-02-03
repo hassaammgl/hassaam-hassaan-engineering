@@ -85,11 +85,11 @@
         margin: 1rem;
         text-align: center;
         @include flexer(column);
-        transition: all 0.5s ease-in-out;
+        transition: all 0.3s ease-in-out;
 
         &:hover {
           // transform: scaleX(-1);
-          transform: matrix(.5, 0, 0, .5, 0, 0);
+          transform: matrix(.8, 0, 0, .8, 0, 0);
         }
 
         h3 {
