@@ -5,9 +5,9 @@ import style from "@/styles/services.module.scss";
 const Services = () => {
   return (
     <div className={style.service}>
-        <h1>
-          We Provide Best Services <br /> For Industries
-        </h1>
+      <h1>
+        We Provide Best Services <br /> For Industries
+      </h1>
       <div className={style.servicecontent}>
         <div className={style.container}>
           <div className={style.box}>
