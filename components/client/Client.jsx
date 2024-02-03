@@ -8,7 +8,7 @@ import Button from "../Button";
 const Services = () => {
   return (
     <div className={style.services}>
-      <div className={`${style.left} ${style.slideleft}`}>
+      <div className={`${style.left}`}>
         <h3 className={style.clientsay}>WHAT OUR CLIENT SAY</h3>
         <h2 className={style.h2}>
           Happy With <br /> Customers & Clients
@@ -32,7 +32,7 @@ const Services = () => {
         <Button name={"OUR SERVICES"} />
         </div>
       </div>
-      <div className={`${style.right} ${style.slideright}`}>
+      <div className={`${style.right}`}>
         <div className={style.rightcontent}>
           <Image className={style.clientimg} src={client} alt="client" />
           <h3>BUYER</h3>
