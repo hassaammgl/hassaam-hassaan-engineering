@@ -17,6 +17,23 @@ export default function Home() {
           <ProductDetails />
           <ProductDetails />
           <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
+          <ProductDetails />
         </div>
       </div>
       <Footer />

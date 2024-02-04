@@ -33,9 +33,9 @@
 
         .headericon {
           font-size: 1.8rem;
-          transition: all .3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 
-          &:hover{
+          &:hover {
             transform: rotate(360deg);
           }
         }
@@ -48,7 +48,8 @@
   }
 
   .response {
-        display: none;
+    display: none;
+
     .responsive {
       background: #000;
       height: 400px;
@@ -68,9 +69,9 @@
       }
     }
 
-    @media screen and (max-width:979px) {
-        display: block;
-        position:relative;
+    @media screen and (max-width: 979px) {
+      display: block;
+      // position:relative;
     }
   }
 
