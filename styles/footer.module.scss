@@ -24,12 +24,12 @@
       margin: 1rem 0.5rem;
     }
 
-    Button{
+    Button {
       margin: 0.5rem;
       font-family: $fonts;
     }
 
-    @media screen and (max-width:1120px) {
+    @media screen and (max-width: 1120px) {
       margin-bottom: 2rem;
     }
   }
@@ -69,12 +69,20 @@
       .send {
         padding: 0.5rem;
         background: $color1;
+        perspective: 1000px;
+        display: inline-block;
         height: 2.2rem;
         width: 2.1rem;
         cursor: pointer;
 
         .sendicon {
-          font-size: 1.1rem;
+          transform-style: preserve-3d;
+          transition: transform 0.5s;
+          font-size: 1.2rem;
+
+          &:hover {
+            transform: scale(0.8) rotateY(180deg);
+          }
         }
       }
     }
@@ -84,7 +92,6 @@
       margin: 0.5rem;
       font-size: 1.5rem;
       gap: 0.8rem;
-      
 
       .socialicon {
         cursor: pointer;
@@ -96,7 +103,7 @@
       }
     }
 
-    @media screen and (max-width:1120px) {
+    @media screen and (max-width: 1120px) {
       margin-bottom: 2rem;
     }
   }
@@ -120,7 +127,7 @@
       margin: 0.3rem 0.5rem;
       font-family: $fonts;
       gap: 0.5rem;
-      
+
       .locationicon {
         font-size: 1.5rem;
         color: $color1;
@@ -129,10 +136,10 @@
         font-family: $fonts;
         font-size: 1.2rem;
         color: white;
-        transition: all .3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         cursor: pointer;
 
-        &:hover{
+        &:hover {
           color: $color1;
         }
       }
@@ -140,7 +147,7 @@
     .hour {
       margin: 0.5rem;
       color: $color3;
-      
+
       h2 {
         font-family: $ubuntu;
         font-size: 1.8rem;
@@ -156,7 +163,7 @@
     }
   }
 
-  @media screen and (max-width:500px) {
-  padding: 3rem 1.2rem;    
+  @media screen and (max-width: 500px) {
+    padding: 3rem 1.2rem;
   }
 }
