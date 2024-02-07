@@ -11,16 +11,11 @@ export default function Home() {
     <>
       <Header />
       <div className={style.product}>
+        <div className={style.menu}>
+
+        </div>
         <h2>Our Products</h2>
         <div className={style.productdet}>
-          <ProductDetails />
-          <ProductDetails />
-          <ProductDetails />
-          <ProductDetails />
-          <ProductDetails />
-          <ProductDetails />
-          <ProductDetails />
-          <ProductDetails />
           <ProductDetails />
           <ProductDetails />
           <ProductDetails />

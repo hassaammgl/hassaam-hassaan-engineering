@@ -84,7 +84,7 @@
     @include flexer(row, space-between);
     padding: 0 3rem;
     background-color: $color3;
-
+    overflow: hidden;
     .link a {
       text-decoration: none;
       color: $color2;

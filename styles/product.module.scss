@@ -1,21 +1,33 @@
-@import "./utils";      
+@import "./utils";
 
-.product{
-    height: fit-content;
-    width: 100%;
-    padding: 2rem;
-    
-    h2{
-        margin: 0.5rem 0 1rem 0;
-        text-align: center;
-        font-size: 2.5rem;
-        font-family: $ubuntu;
-    }
-    
-    .productdet{
-        @include flexer(row);
-        margin: 2rem auto;
-        gap: 3rem;
-        flex-wrap: wrap;
-    }
+.product {
+  height: fit-content;
+  width: 100%;
+  padding: 2rem;
+  overflow: hidden;
+
+  .menu {
+    height: 160px;
+    width: 160px;
+    background-color: #fb8122;
+    border-radius: 150px;
+    position: fixed;
+    top: 40%;
+    left: -100px;
+    box-shadow: rgb(255 96 0) 0px 5px 15px;
+  }
+
+  h2 {
+    margin: 0.5rem 0 1rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: $ubuntu;
+  }
+
+  .productdet {
+    @include flexer(row);
+    margin: 2rem auto;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
 }
