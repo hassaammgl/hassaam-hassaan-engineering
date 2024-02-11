@@ -5,9 +5,8 @@ const Button = ({name}) => {
 
   return (
     <>
-      <button className={style.button} style={{"--clr": "#FB8122"}}>
+      <button className={style.button} >
         <span>{name === undefined ? "button":name}</span>
-        <i></i>
       </button>
     </>
   );

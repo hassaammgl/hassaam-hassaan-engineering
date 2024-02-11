@@ -7,6 +7,7 @@
   color: $color4;
 
   .upperheader {
+    font-family: $ubuntu;
     width: 100%;
     padding: 1rem 4rem;
     @include flexer(row, space-evenly);
@@ -47,10 +48,31 @@
     }
   }
 
-  .response {
-    display: none;
+  .work {
+    color: white;
+    position: static;
+    // z-index: 2;
 
-    .responsive {
+    button {
+      all: unset;
+      border-radius: 50%;
+      border: 2px solid darkgoldenrod;
+      top: 0%;
+      right: 0%;
+      margin: 1rem;
+      color: black;
+      cursor: pointer;
+      padding: 0.4rem;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      font-size: 2rem;
+      position: absolute;
+      background: white;
+      z-index: 1;
+    }
+
+    .link {
       background: #000;
       height: 400px;
       display: flex;
@@ -58,7 +80,6 @@
       text-align: center;
       flex-direction: column;
       position: absolute;
-      left: 0%;
       top: 0;
 
       a {
@@ -68,12 +89,34 @@
         margin: 2rem;
       }
     }
-
-    @media screen and (max-width: 979px) {
-      display: block;
-      // position:relative;
-    }
   }
+
+  // .response {
+  //   display: none;
+
+  //   .responsive {
+  //     background: #000;
+  //     height: 400px;
+  //     display: flex;
+  //     width: 100%;
+  //     text-align: center;
+  //     flex-direction: column;
+  //     position: absolute;
+  //     left: 0%;
+  //     top: 0;
+
+  //     a {
+  //       color: white;
+  //       text-decoration: none;
+  //       font-size: 2rem;
+  //       margin: 2rem;
+  //     }
+  //   }
+
+  //   @media screen and (max-width: 979px) {
+  //     display: block;
+  //   }
+  // }
 
   .links {
     height: 75px;
@@ -83,11 +126,12 @@
     border-radius: 10px;
     @include flexer(row, space-between);
     padding: 0 3rem;
-    background-color: $color3;
     overflow: hidden;
+    background-color: $color1;
     .link a {
       text-decoration: none;
-      color: $color2;
+      color: $color3;
+      font-family: $fonts;
       font-size: 1.2rem;
       margin: 0 1.2rem;
       font-weight: bolder;
