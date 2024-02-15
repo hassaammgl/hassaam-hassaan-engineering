@@ -44,7 +44,7 @@
         color: $color1;
         transition: $transition;
 
-        &:hover{
+        &:hover {
           color: $color3;
           cursor: pointer;
         }
@@ -67,6 +67,9 @@
           }
         }
       }
+    }
+    .btn {
+      font-family: $ubuntu;
     }
     @media screen and (max-width: 900px) {
       width: 100%;
