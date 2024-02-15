@@ -32,7 +32,7 @@
       border-radius: 5px;
       @include flexer(row);
       margin: 2rem;
-      background-color: $color1;
+      background-color: $color2;
       padding: 0 1rem;
       height: 22rem;
       transition: all 0.3s ease-in-out;
@@ -40,7 +40,7 @@
       .box {
         @include flexer(column);
         .icon {
-          color: $color1;
+          color: $color2;
           margin-bottom: 1rem;
           @include flexer(center, center);
           height: 80px;
@@ -52,7 +52,7 @@
         }
 
         .border {
-          border: 3px dashed $color2;
+          border: 3px dashed $color1;
           padding: 20px;
         }
 
@@ -75,7 +75,8 @@
       }
 
       &:hover {
-        background: #000;
+        background: $color3;
+        color: $color2;
         transition: all 0.4s ease;
       }
 
