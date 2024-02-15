@@ -92,39 +92,25 @@
   }
 }
 
-// @media screen and (max-width: 999px) {
-//   .home {
-//     height: fit-content;
-//     padding: 3rem 1rem;
-//     width: 100%;
-//     flex-direction: column;
-//     .left {
-//       text-align: start;
-//       width: 100%;
-//     }
-//     .right {
-//       width: 100%;
-//       height: fit-content;
-
-//       .img {
-//         width: 50%;
-//       }
-//     }
-//   }
-// }
-
-
 @media screen and (max-width: 949px) {
   .home {
     @include flexer(column);
-    padding: 1rem  1.5rem;
+    padding: 1.8rem  2.5rem;
     height: fit-content;
 
     .left {
       width: 100%;
+      gap: 0rem;
       padding: 0;
       height: fit-content;
       margin-bottom: 1rem;
+
+      
+    h1 {
+      margin: .5rem 0;
+      font-size: 3rem;
+      font-family: $ubuntu;
+    }
     }
   }
 }
