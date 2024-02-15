@@ -76,6 +76,10 @@
       object-fit: cover;
       width: 15vw;
     }
+
+    @media screen and (max-width: 950px) {
+      display: none;
+    }
   }
 
   .bgimg {
@@ -109,6 +113,22 @@
 //   }
 // }
 
+
+@media screen and (max-width: 949px) {
+  .home {
+    @include flexer(column);
+    padding: 1rem  1.5rem;
+    height: fit-content;
+
+    .left {
+      width: 100%;
+      padding: 0;
+      height: fit-content;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
 @media screen and (max-width: 500px) {
   .home {
     padding: 1rem;
@@ -129,11 +149,6 @@
         font-size: 2.5rem;
       }
     }
-    // .right {
-    //   width: 95%;
-    //   padding: 0;
-    //   height: fit-content;
-    // }
   }
 }
 
