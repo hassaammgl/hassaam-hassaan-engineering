@@ -42,6 +42,12 @@
       .lright {
         font-size: 2rem;
         color: $color1;
+        transition: $transition;
+
+        &:hover{
+          color: $color3;
+          cursor: pointer;
+        }
       }
 
       .rright {

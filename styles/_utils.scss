@@ -13,6 +13,8 @@ $color3: white;
 $color4: #fff;
 $color1lg: #723202;
 
+$transition: all .3s ease-in-out;
+
 @mixin flexer($dir: row, $justify: center, $items: center) {
   display: flex;
   justify-content: $justify;
