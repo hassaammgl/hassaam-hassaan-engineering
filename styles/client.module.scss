@@ -94,7 +94,8 @@
       width: 100%;
       padding: 2rem;
       height: 100%;
-      background: #ea5a1c74;
+      // background: #ea5a1c74;
+      background: rgba(0, 0, 0, 0.45);
       @include flexer(column);
 
       .clientimg {
