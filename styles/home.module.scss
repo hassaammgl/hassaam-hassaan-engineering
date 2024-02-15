@@ -8,7 +8,7 @@
   background-position: center;
   height: 90vh;
   flex-direction: row;
-
+ 
   .left {
     width: 80vw;
     @include flexer(column, center, flex-start);
@@ -33,6 +33,7 @@
 
     .companyp {
       text-decoration: underline;
+      text-decoration-color: $color1;
       font-weight: bold;
       font-size: 1.2rem;
       font-family: $fonts;
