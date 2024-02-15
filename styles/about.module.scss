@@ -6,7 +6,6 @@
   @include flexer();
   color: $color2;
   padding: 2rem 2rem 1rem;
-  // background-color: rgba(0, 0, 0, 0.673);
   background-color: white;
 }
 
@@ -16,7 +15,6 @@
   color: $color2;
   @include flexer();
   padding: 2rem;
-  // background-color: rgba(0, 0, 0, 0.673);
   background-color: white;
 
   .left {
@@ -80,6 +78,7 @@
       @include flexer();
 
       .box {
+        color: $color1;
         width: 320px;
         height: 220px;
         padding: 1rem;
