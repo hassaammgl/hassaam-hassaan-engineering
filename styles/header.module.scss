@@ -3,7 +3,7 @@
 .header {
   height: 150px;
   width: 100%;
-  background: black;
+  background: $color2;
   color: $color4;
 
   .upperheader {
@@ -27,8 +27,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: $color1lg;
-        color: $color1;
+        // background: $color1lg;
+        background: $color1;
+        color: $color3;
         border-radius: 50px;
         width: 50px;
 
