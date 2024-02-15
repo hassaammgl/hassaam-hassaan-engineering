@@ -59,8 +59,7 @@ const Header = () => {
       <div className={style.links}>
         <div className={`${style.link} ${roboto.className}`}>
           <Link href={"/"}>Home</Link>
-          {/* <Link href={"/Products"}>Products</Link> */}
-          <Link href={"/Contact"}>Contact Us</Link>
+          <Link href={"/Products"}>Products</Link>
         </div>
         <Button name={"Get a Quote"} />
       </div>
@@ -86,8 +85,7 @@ const Header = () => {
           <div className={style.link}>
             <Link href={"/"}>Home</Link>
             <Link href={"/Services"}>Services</Link>
-            {/* <Link href={"/Products"}>Products</Link> */}
-            <Link href={"/Contact"}>Contact Us</Link>
+            <Link href={"/Products"}>Products</Link>
           </div>
         )}
       </div>
