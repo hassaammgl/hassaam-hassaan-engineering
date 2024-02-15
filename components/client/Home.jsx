@@ -3,7 +3,7 @@ import React from "react";
 import ServerHome from "../server/Home";
 import style from "@/styles/home.module.scss";
 import Image from "next/image";
-import right from "@/Images/right.png";
+import right from "@/Images/right.gif";
 
 const Home = () => {
   return (

@@ -2,7 +2,7 @@
 
 .home {
   @include flexer(center, center);
-  padding: 0rem 1.5rem;
+  padding: 0rem 2.5rem;
   background-image: url("../Images/welderbg.jpg");
   background-size: cover;
   background-position: center;
@@ -10,7 +10,7 @@
   flex-direction: row;
 
   .left {
-    width: 68vw;
+    width: 80vw;
     @include flexer(column, center, flex-start);
     gap: 1.5rem;
     height: fit-content;
@@ -68,12 +68,13 @@
 
   .right {
     display: flex;
-    width: 32vw;
+    width: 20vw;
     height: fit-content;
 
     img {
-      height: 45vh;
-      width: 35vw;
+      height: 20vh;
+      object-fit: cover;
+      width: 15vw;
     }
   }
 
