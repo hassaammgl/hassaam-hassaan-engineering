@@ -3,8 +3,8 @@
 .achievement {
   height: fit-content;
   padding: 2rem;
-  background: #000;
-  color: white;
+  background: $color1;
+  color: $color2;
   @include flexer(column);
 
   h1{
@@ -23,13 +23,13 @@
       margin: 2rem;
       padding: 0;
       @include flexer(row);
-      background: $color3;
+      background: $color2;
       width: 380px;
 
       .icon {
         width: 45%;
-        background: $color1;
-        color: $color3;
+        background: $color3;
+        color: $color2;
         position: relative;
         height: 100%;
         right:30px;
@@ -44,15 +44,14 @@
         
         h2{
             font-size: 2rem;
-            color: black;
+            color: $color3;
             font-weight: bold;
             margin-bottom: .5rem;
         }
         
         p{
-            color: $color2;
+          color: $color3;
             font-size: 1.8rem;
-
         }
       }
       @media screen  and (max-width: 500px) {
