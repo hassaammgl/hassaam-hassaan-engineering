@@ -7,7 +7,7 @@
   color: $color2;
   @include flexer(column);
 
-  h1{
+  h1 {
     font-family: $ubuntu;
   }
 
@@ -32,34 +32,34 @@
         color: $color2;
         position: relative;
         height: 100%;
-        right:30px;
+        right: 30px;
         @include flexer();
-        border-radius:0% 50% 91% 25% / 10% 54% 55% 0%   ;
+        border-radius: 0% 50% 91% 25% / 10% 54% 55% 0%;
         font-size: 2rem;
       }
 
       .content {
         width: 60%;
-        padding: .5rem;
-        
-        h2{
-            font-size: 2rem;
-            color: $color3;
-            font-weight: bold;
-            margin-bottom: .5rem;
-        }
-        
-        p{
+        padding: 0.5rem;
+
+        h2 {
+          font-size: 2rem;
           color: $color3;
-            font-size: 1.8rem;
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          color: $color3;
+          font-size: 1.8rem;
         }
       }
-      @media screen  and (max-width: 500px) {
+      @media screen and (max-width: 500px) {
         margin: 2rem 0rem;
       }
     }
   }
-  @media screen and (max-width:500px) {
+  @media screen and (max-width: 500px) {
     padding: 2rem 1.2rem;
   }
 }
