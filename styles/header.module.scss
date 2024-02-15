@@ -27,7 +27,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        // background: $color1lg;
         background: $color1;
         color: $color3;
         border-radius: 50px;
@@ -51,6 +50,7 @@
 
   .work {
     color: white;
+    display: none;
     position: static;
 
     button {
@@ -88,6 +88,9 @@
         font-size: 2rem;
         margin: 2rem;
       }
+    }
+    @media screen and (max-width:980px) {
+      display: block;
     }
   }
 
