@@ -1,9 +1,9 @@
 "use client";
 
-import style from "@/styles/product.module.scss";
-import Footer from "@/components/Client/Footer";
-import Header from "@/components/Header";
 import React from "react";
+import Header from "@/components/Header";
+import Footer from "@/components/Client/Footer";
+import style from "@/styles/product.module.scss";
 import ProductDetails from "@/components/Client/ProductDetails";
 
 export default function Home() {
@@ -12,7 +12,6 @@ export default function Home() {
       <Header />
       <div className={style.product}>
         <div className={style.menu}>
-
         </div>
         <h2>Our Products</h2>
         <div className={style.productdet}>
@@ -30,7 +29,7 @@ export default function Home() {
           <ProductDetails />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
