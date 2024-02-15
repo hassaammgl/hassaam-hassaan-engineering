@@ -4,7 +4,8 @@
   @include flexer(row, space-between);
   width: 72rem;
   height: fit-content;
-  background: $color3;
+  background: $color2;
+  color: $color3;
   padding: 2.5rem 1rem;
   margin: 3rem auto;
   border-radius: 15px;
@@ -15,7 +16,6 @@
 
     h2 {
       font-size: 2.5rem;
-      // color: $color3;
       font-family: $ubuntu;
 
       @media screen and (max-width: 500px) {
@@ -46,14 +46,12 @@
 
       .rright {
         p {
-          // color: $color3;
           font-family: $fonts;
           font-size: 1.4rem;
         }
 
         .rrright {
           font-family: $fonts;
-          // color: $color3;
           font-size: 1.4rem;
           transition: all 0.3s ease-in-out;
 
