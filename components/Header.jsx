@@ -86,7 +86,7 @@ const Header = () => {
           <div className={style.link}>
             <Link href={"/"}>Home</Link>
             <Link href={"/Services"}>Services</Link>
-            <Link href={"/Products"}>Products</Link>
+            {/* <Link href={"/Products"}>Products</Link> */}
             <Link href={"/Contact"}>Contact Us</Link>
           </div>
         )}
